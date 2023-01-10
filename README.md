@@ -1,3 +1,6 @@
 # zoro-learn [CLONE]
 
 Goal : digunakan untuk belajar
+
+file css pecah per component
+nanti diletakan di folder components

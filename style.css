@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+     font-family: 'Open Sans', sans-serif;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.container .row h2{
+    font-size: 43px;
+}
+.container .row .text{
+    font-size: 15px;
+    margin: 0 0 20px;
+}
+.container .row h2 span{
+    font-weight: 1200;
+}
+.container .row .sign-up{
+    background-color: #f0483e;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    padding: 8px 30px;
+    margin-top: 20px;
+    color: #fff;
+}

@@ -1,4 +1,4 @@
-# zoro-learn [CLONE]
+# zoro-learn [TEMPLATE]
 
 Goal : digunakan untuk belajar
 

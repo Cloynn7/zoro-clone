@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.support .container .contact ul li a{
+    text-decoration: none;
+    color: #03a9f5;
+}
+.support .container .contact ul li{
+    margin-right: 30px;
+    list-style: none;
+    align-self: center;
+}
+.support .container .contact ul{
+    justify-content: end;
+    font-size: 17px;
+    display: flex;
+}
+.contact{
+    font-size: 17px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+}
+.bi-envelope, .bi-globe{
+    align-self: center;
+    margin: 0 10px;
+}
+.bi-envelope{
+    color:#03a9f5;
+}
+
+.search .container .search-box .search-input:focus{
+    color: #000;
+}
+.search .container .search-box .search-input{
+    color: rgb(133, 133, 133);
+    border: 1px solid #eaeaea;
+    border-right: none;
+    outline: none;
+    padding: 5px;
+    height: 33px;
+    width: 100%;
+}
+.search .container .search-box .search-btn{
+    border: 1px solid #eaeaea;
+    background: #eaeaea;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    height: 33px;
+    width: 40px;
+}
+
+.search .container .search-box{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.search .container{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: 50px;
+    width: 80%;
+    left: 50%;
+}
+
+
+.link-footer{
+    margin: 0;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    opacity: 1;
+}
+.link-footer .container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    text-align: center;
+    grid-gap: 20px;
+}
+.box{
+    position: relative;
+}
+.link-footer .container .box p{
+    margin: 0;
+    position: absolute;
+}
+.copy-right{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.search2{
+    opacity: 0;
+}
+@media only screen and (max-width:480px) {
+    .link-footer{
+        opacity: 0;
+    }
+}
+@media only screen and (max-width:767px) {
+    .search2{
+        opacity: 1;
+    }
+}

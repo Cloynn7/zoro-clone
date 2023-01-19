@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    padding: 0 0 5em 0;
 }
 
 .logo img {
@@ -44,6 +45,7 @@
     background-color: #141438;
     height: 700px;
     text-align: center;
+    justify-content: space-around;
 }
 
 .top h1 {
@@ -62,6 +64,30 @@
     line-height: 28.8px;
     width: 850px;
     max-width: 850px;
+    margin: 0 auto 4em auto;
+}
+
+.daftar {
+    padding: 1em;
+    background-color: #F0483E;
+    color: white;
+    text-decoration: none;
+}
+
+.topimg {
+    display: flex;
+}
+
+.topimg .timg-1 {
+    width: 564px;
+    height: 603px;
+    max-width: 100%;
+}
+
+.topimg ,#timg-2 {
+    width: 568px;
+    height: 406px; 
+    max-width: 1000%;
 }
 
 @media screen and (max-width: 600px) {
